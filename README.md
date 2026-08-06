@@ -47,6 +47,11 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
 
 ---
 
+🧩 Metodologias & Padrões de Projeto
+<p align="left"> <img src="https://img.shields.io/badge/Scrum-6DA544?style=flat" /> <img src="https://img.shields.io/badge/Kanban-0079BF?style=flat" /> <img src="https://img.shields.io/badge/PDCA-F4A100?style=flat" /> <img src="https://img.shields.io/badge/UML-B2242A?style=flat" /> <img src="https://img.shields.io/badge/Design_Patterns-8A2BE2?style=flat" /> <img src="https://img.shields.io/badge/Builder_Pattern-8A2BE2?style=flat" /> <img src="https://img.shields.io/badge/RUP-4B5563?style=flat" /> <img src="https://img.shields.io/badge/ICONIX-4B5563?style=flat" /> <img src="https://img.shields.io/badge/Design_Thinking-FF6F61?style=flat" /> <img src="https://img.shields.io/badge/COBIT_2019-003366?style=flat" /> </p>
+
+---
+
 ### 💼 Projetos em destaque
 
 <table>
