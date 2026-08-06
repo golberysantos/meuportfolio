@@ -25,49 +25,51 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
 ### 🛠️ Stack Tecnológico
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black" />
-  <img src="https://img.shields.io/badge/Lombok-B71C1C?style=flat" />
+  <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" /></a>
+  <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" /></a>
+  <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" /></a>
+  <a href="https://laravel.com/"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" /></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" /></a>
+  <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /></a>
+  <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" /></a>
+  <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" /></a>
+  <a href="https://swagger.io/"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black" /></a>
+  <a href="https://projectlombok.org/"><img src="https://img.shields.io/badge/Lombok-B71C1C?style=flat" /></a>
 </p>
 
 ### 🧩 Metodologias & Padrões de Projeto
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Scrum-6DA544?style=flat" />
-  <img src="https://img.shields.io/badge/Kanban-0079BF?style=flat" />
-  <img src="https://img.shields.io/badge/PDCA-F4A100?style=flat" />
-  <img src="https://img.shields.io/badge/UML-B2242A?style=flat" />
-  <img src="https://img.shields.io/badge/Design_Patterns-8A2BE2?style=flat" />
-  <img src="https://img.shields.io/badge/Builder_Pattern-8A2BE2?style=flat" />
-  <img src="https://img.shields.io/badge/RUP-4B5563?style=flat" />
-  <img src="https://img.shields.io/badge/ICONIX-4B5563?style=flat" />
-  <img src="https://img.shields.io/badge/Design_Thinking-FF6F61?style=flat" />
-  <img src="https://img.shields.io/badge/COBIT_2019-003366?style=flat" />
+  <a href="https://www.scrum.org/"><img src="https://img.shields.io/badge/Scrum-6DA544?style=flat" /></a>
+  <a href="https://kanban.university/"><img src="https://img.shields.io/badge/Kanban-0079BF?style=flat" /></a>
+  <a href="https://en.wikipedia.org/wiki/PDCA"><img src="https://img.shields.io/badge/PDCA-F4A100?style=flat" /></a>
+  <a href="https://www.uml.org/"><img src="https://img.shields.io/badge/UML-B2242A?style=flat" /></a>
+  <a href="https://refactoring.guru/design-patterns"><img src="https://img.shields.io/badge/Design_Patterns-8A2BE2?style=flat" /></a>
+  <a href="https://refactoring.guru/design-patterns/builder"><img src="https://img.shields.io/badge/Builder_Pattern-8A2BE2?style=flat" /></a>
+  <a href="https://en.wikipedia.org/wiki/Rational_unified_process"><img src="https://img.shields.io/badge/RUP-4B5563?style=flat" /></a>
+  <a href="https://en.wikipedia.org/wiki/ICONIX_Process"><img src="https://img.shields.io/badge/ICONIX-4B5563?style=flat" /></a>
+  <a href="https://www.interaction-design.org/literature/topics/design-thinking"><img src="https://img.shields.io/badge/Design_Thinking-FF6F61?style=flat" /></a>
+  <a href="https://www.isaca.org/resources/cobit"><img src="https://img.shields.io/badge/COBIT_2019-003366?style=flat" /></a>
 </p>
 
 ### 📐 Princípios, Convenções & Arquitetura
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Clean_Code-1E90FF?style=flat" />
-  <img src="https://img.shields.io/badge/Clean_Architecture-1E90FF?style=flat" />
-  <img src="https://img.shields.io/badge/Ports_%26_Adapters-1E90FF?style=flat" />
-  <img src="https://img.shields.io/badge/Hexagonal_Architecture-1E90FF?style=flat" />
-  <img src="https://img.shields.io/badge/SOLID-D2691E?style=flat" />
-  <img src="https://img.shields.io/badge/GoF_Design_Patterns-D2691E?style=flat" />
-  <img src="https://img.shields.io/badge/AAA_Test_Pattern-2E8B57?style=flat" />
+  <a href="https://www.oreilly.com/library/view/clean-code-a/9780136083238/"><img src="https://img.shields.io/badge/Clean_Code-1E90FF?style=flat" /></a>
+  <a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"><img src="https://img.shields.io/badge/Clean_Architecture-1E90FF?style=flat" /></a>
+  <a href="https://alistair.cockburn.us/hexagonal-architecture/"><img src="https://img.shields.io/badge/Ports_%26_Adapters-1E90FF?style=flat" /></a>
+  <a href="https://alistair.cockburn.us/hexagonal-architecture/"><img src="https://img.shields.io/badge/Hexagonal_Architecture-1E90FF?style=flat" /></a>
+  <a href="https://en.wikipedia.org/wiki/SOLID"><img src="https://img.shields.io/badge/SOLID-D2691E?style=flat" /></a>
+  <a href="https://en.wikipedia.org/wiki/Design_Patterns"><img src="https://img.shields.io/badge/GoF_Design_Patterns-D2691E?style=flat" /></a>
+  <a href="http://xunitpatterns.com/Arrange-Act-Assert.html"><img src="https://img.shields.io/badge/AAA_Test_Pattern-2E8B57?style=flat" /></a>
 </p>
+
+<sub>*Alguns itens acima (SOLID, Clean Code, RUP, PDCA...) são conceitos ou livros, sem um "site oficial" único — nesses casos o link aponta para a fonte mais reconhecida/original sobre o tema.*</sub>
 
 ---
 
