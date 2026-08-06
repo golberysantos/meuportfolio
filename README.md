@@ -11,7 +11,6 @@
 
 ---
 
-Sou Analista de Sistemas e Desenvolvedor Back-end com paixão especial por Java e pela construção de soluções eficientes. Minha jornada une o código com experiência sólida em gestão, docência e inovação — o que me dá uma visão única para criar software que realmente resolve problemas de negócio.
 
 ### 🚀 Sobre mim
 
