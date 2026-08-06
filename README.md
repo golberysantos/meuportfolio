@@ -27,7 +27,7 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
 
 ### 🛠️ Stack Tecnológico
 
-**Back-end**
+- **Back-end**
 <p align="left">
   <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white" /></a>
   <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/"><img src="https://img.shields.io/badge/JDBC-4479A1?style=flat" /></a>
@@ -45,7 +45,7 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
 
 <sub>*Java 21 aplicado com POO, MVC e recursos modernos da linguagem (Records, Pattern Matching).*</sub>
 
-**Front-end**
+- **Front-end**
 <p align="left">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" /></a>
@@ -55,7 +55,7 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
   <a href="https://www.thymeleaf.org/"><img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat&logo=thymeleaf&logoColor=white" /></a>
 </p>
 
-**Banco de Dados**
+- **Banco de Dados**
 <p align="left">
   <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /></a>
   <a href="https://en.wikipedia.org/wiki/SQL"><img src="https://img.shields.io/badge/SQL-4479A1?style=flat" /></a>
@@ -63,7 +63,7 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
   <a href="https://en.wikipedia.org/wiki/Data_warehouse"><img src="https://img.shields.io/badge/Data_Warehouse-4479A1?style=flat" /></a>
 </p>
 
-**Versionamento & DevOps**
+- **Versionamento & DevOps**
 <p align="left">
   <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" /></a>
   <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
@@ -72,7 +72,7 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
   <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS_Linux-232F3E?style=flat&logo=amazonaws&logoColor=white" /></a>
 </p>
 
-**Ferramentas**
+- **Ferramentas**
 <p align="left">
   <a href="https://swagger.io/"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black" /></a>
   <a href="https://projectlombok.org/"><img src="https://img.shields.io/badge/Lombok-B71C1C?style=flat" /></a>
