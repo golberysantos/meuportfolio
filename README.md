@@ -1,8 +1,3 @@
-# 👨‍💻 Golbery Oliveira dos Santos
-
-**Desenvolvedor Java Backend | Builder de soluções**
-
----
 <h1 align="center">Olá, eu sou o Golbery 👋</h1>
 <h3 align="center">Desenvolvedor Java Backend | Builder de soluções</h3>
 
@@ -43,12 +38,36 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/Lombok-B71C1C?style=flat" />
 </p>
 
----
+### 🧩 Metodologias & Padrões de Projeto
 
-🧩 Metodologias & Padrões de Projeto
-<p align="left"> <img src="https://img.shields.io/badge/Scrum-6DA544?style=flat" /> <img src="https://img.shields.io/badge/Kanban-0079BF?style=flat" /> <img src="https://img.shields.io/badge/PDCA-F4A100?style=flat" /> <img src="https://img.shields.io/badge/UML-B2242A?style=flat" /> <img src="https://img.shields.io/badge/Design_Patterns-8A2BE2?style=flat" /> <img src="https://img.shields.io/badge/Builder_Pattern-8A2BE2?style=flat" /> <img src="https://img.shields.io/badge/RUP-4B5563?style=flat" /> <img src="https://img.shields.io/badge/ICONIX-4B5563?style=flat" /> <img src="https://img.shields.io/badge/Design_Thinking-FF6F61?style=flat" /> <img src="https://img.shields.io/badge/COBIT_2019-003366?style=flat" /> </p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Scrum-6DA544?style=flat" />
+  <img src="https://img.shields.io/badge/Kanban-0079BF?style=flat" />
+  <img src="https://img.shields.io/badge/PDCA-F4A100?style=flat" />
+  <img src="https://img.shields.io/badge/UML-B2242A?style=flat" />
+  <img src="https://img.shields.io/badge/Design_Patterns-8A2BE2?style=flat" />
+  <img src="https://img.shields.io/badge/Builder_Pattern-8A2BE2?style=flat" />
+  <img src="https://img.shields.io/badge/RUP-4B5563?style=flat" />
+  <img src="https://img.shields.io/badge/ICONIX-4B5563?style=flat" />
+  <img src="https://img.shields.io/badge/Design_Thinking-FF6F61?style=flat" />
+  <img src="https://img.shields.io/badge/COBIT_2019-003366?style=flat" />
+</p>
+
+### 📐 Princípios, Convenções & Arquitetura
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Clean_Code-1E90FF?style=flat" />
+  <img src="https://img.shields.io/badge/Clean_Architecture-1E90FF?style=flat" />
+  <img src="https://img.shields.io/badge/Ports_%26_Adapters-1E90FF?style=flat" />
+  <img src="https://img.shields.io/badge/Hexagonal_Architecture-1E90FF?style=flat" />
+  <img src="https://img.shields.io/badge/SOLID-D2691E?style=flat" />
+  <img src="https://img.shields.io/badge/GoF_Design_Patterns-D2691E?style=flat" />
+  <img src="https://img.shields.io/badge/AAA_Test_Pattern-2E8B57?style=flat" />
+</p>
 
 ---
 
