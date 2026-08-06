@@ -14,13 +14,14 @@
 
 ### 🚀 Sobre mim
 
-Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend. Depois de anos atuando na gestão, docência e inovação, decidi voltar 100% para criar software que realmente resolve problemas de negócio — hoje aplico Spring Boot, boas práticas de POO e metodologias ágeis em projetos reais. Curioso por natureza, gosto de resolver problemas com dados e já colecionei alguns prêmios em hackathons pelo caminho. 🏆
+Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend. Depois de anos atuando na gestão, docência e inovação, decidi voltar 100% para criar software que realmente resolve problemas de negócio. Curioso por natureza, gosto de resolver problemas com dados e já colecionei grandes façanhas positivas 🏆. 
 
-- 🔭 Atualmente aprofundando **Java + Spring Boot** (Bootcamp Santander, Claro, Riachuelo)
-- 🌱 Estudando **arquitetura de APIs REST**, testes automatizados e boas práticas de código limpo
-- 🎯 Buscando oportunidade como **Desenvolvedor Java Backend**
-- 💬 Pergunte-me sobre: Java, PHP/Laravel, MySQL, Scrum/Kanban, Design Thinking
-- ⚡ Curiosidade: já venci 3 hackathons de tecnologia e implantei uma certificação ISO 9001 do zero
+- 🎯 Objetivo: Atuar como Desenvolvedor Java Back-end, unindo capacidade técnica com experiência em liderança e melhoria contínua.
+- 🚀 Inovador: Premiado em hackathons de impacto social e tecnológico em Manaus e no TJAM.
+- 🤖 Aprendizado constante: Focado em Spring Boot, APIs REST, IA Generativa e Cloud. Atualmente aprofundando **Java + Spring Boot** (Bootcamp: Santander, Claro, Riachuelo), **arquitetura de APIs REST**, testes automatizados e boas práticas de código limpo.
+- 🎯 Buscando oportunidade como **Desenvolvedor Java Backend**.
+- 💬 Pergunte-me sobre: Java, PHP/Laravel, MySQL, Scrum/Kanban, Design Thinking.
+- ⚡ Curiosidade: já venci 3 hackathons de tecnologia e implantei uma certificação ISO 9001 do zero.
 
 ---
 
