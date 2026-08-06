@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golbery Santos — Desenvolvedor Java Backend</title>
+<meta name="description" content="Portfólio de Golbery Santos, Desenvolvedor Java Backend. Spring Boot, APIs REST, Clean Architecture, DDD.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap (grid + utilities) -->
+<link href="static/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+<!-- Estilo próprio -->
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">golbery<span class="dot">.</span>build<span class="cursor">_</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#stack">stack</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#premios">prêmios</a></li>
+      <li><a href="#contato" class="nav-cta">contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="top">
+  <div class="blueprint-grid" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">// desenvolvedor java backend</p>
+      <h1>Golbery Santos</h1>
+      <p class="hero-sub">Builder de soluções. Transformo requisitos de negócio em <strong>APIs REST</strong> sólidas, com <strong>Spring Boot</strong>, arquitetura limpa e código que se explica sozinho.</p>
+      <div class="hero-actions">
+        <a href="#projetos" class="btn btn-accent">Ver projetos</a>
+        <a href="README.md" class="btn btn-outline">Currículo completo</a>
+      </div>
+    </div>
+
+    <div class="terminal" role="img" aria-label="Terminal simulando o build do currículo de Golbery">
+      <div class="terminal-bar">
+        <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+        <span class="terminal-title">golbery@carreira: ~/build</span>
+      </div>
+      <div class="terminal-body" id="terminalBody"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <p class="section-label">01 · sobre</p>
+      <h2 class="section-title">Da sala de aula ao <span class="accent">código de produção</span></h2>
+      <div class="about-grid">
+        <p class="about-text">
+          Sou Analista de Sistemas de formação. Passei anos em gestão, docência e inovação — hoje, 100% dedicado a construir software Java que resolve problemas de negócio de verdade. Curioso por natureza, gosto de transformar ideias em sistemas funcionando, com boas práticas de arquitetura e testes desde o primeiro commit.
+        </p>
+        <ul class="about-facts">
+          <li><span class="fact-num">3×</span> vitórias em hackathons de tecnologia</li>
+          <li><span class="fact-num">1</span> certificação ISO 9001 implantada do zero</li>
+          <li><span class="fact-num">∞</span> curiosidade por Java, Spring Boot &amp; Cloud</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STACK ===== -->
+  <section class="section section-alt" id="stack">
+    <div class="container">
+      <p class="section-label">02 · stack</p>
+      <h2 class="section-title">Ferramentas que uso para <span class="accent">construir</span></h2>
+
+      <div class="stack-group">
+        <h3>Back-end</h3>
+        <div class="chip-row">
+          <span class="chip">Java 21</span><span class="chip">Spring Boot</span><span class="chip">Spring Data JPA</span>
+          <span class="chip">Spring Security</span><span class="chip">JDBC</span><span class="chip">API REST</span>
+          <span class="chip">DTO</span><span class="chip">PHP / Laravel</span><span class="chip">Node.js</span><span class="chip">Python</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <h3>Front-end</h3>
+        <div class="chip-row">
+          <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span>
+          <span class="chip">jQuery</span><span class="chip">Bootstrap</span><span class="chip">Thymeleaf</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <h3>Dados &amp; DevOps</h3>
+        <div class="chip-row">
+          <span class="chip">MySQL</span><span class="chip">SQL</span><span class="chip">MER</span><span class="chip">Data Warehouse</span>
+          <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">GitLab</span><span class="chip">Docker</span><span class="chip">AWS</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <h3>Arquitetura &amp; Metodologia</h3>
+        <div class="chip-row">
+          <span class="chip">Clean Architecture</span><span class="chip">DDD</span><span class="chip">SOLID</span>
+          <span class="chip">MVC</span><span class="chip">Design Patterns</span><span class="chip">Scrum</span><span class="chip">Kanban</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETOS ===== -->
+  <section class="section" id="projetos">
+    <div class="container">
+      <p class="section-label">03 · projetos</p>
+      <h2 class="section-title">O que já foi <span class="accent">compilado</span></h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <a class="project-card" href="https://github.com/golberysantos/challengeforumhub" target="_blank" rel="noopener">
+            <span class="project-icon">💬</span>
+            <h3>challengeforumhub</h3>
+            <p>API REST completa — Challenge Back End Fórum Hub. Java + Spring Boot, arquitetura em camadas.</p>
+            <span class="project-link">ver repositório →</span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="project-card" href="https://github.com/golberysantos/ShopApp_Exercise" target="_blank" rel="noopener">
+            <span class="project-icon">🛒</span>
+            <h3>ShopApp_Exercise</h3>
+            <p>Exercício prático de e-commerce — modelagem e lógica de negócio de um sistema de vendas.</p>
+            <span class="project-link">ver repositório →</span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="project-card" href="https://github.com/golberysantos/gerapi" target="_blank" rel="noopener">
+            <span class="project-icon">📊</span>
+            <h3>gerapi</h3>
+            <p>Gerador de Apresentação de Projeto Integrador, desenvolvido em Python.</p>
+            <span class="project-link">ver repositório →</span>
+          </a>
+        </div>
+      </div>
+      <p class="section-note">Novos repositórios Java/Spring Boot entram aqui conforme forem concluídos.</p>
+    </div>
+  </section>
+
+  <!-- ===== PRÊMIOS ===== -->
+  <section class="section section-alt" id="premios">
+    <div class="container">
+      <p class="section-label">04 · diferenciais</p>
+      <h2 class="section-title">Hackathons &amp; <span class="accent">premiações</span></h2>
+
+      <div class="awards">
+        <div class="award">
+          <span class="medal">🥇</span>
+          <div>
+            <h3>1º Lugar — Inovathon Manaus 2023 <span class="award-org">· Prefeitura de Manaus</span></h3>
+            <p><strong>Manas Hub</strong> — startup que conecta mães a babás de confiança. Cofundador e CEO, aplicando Design Thinking e metodologias ágeis.</p>
+            <a href="https://www.portalmarcossantos.com.br/2023/07/24/app-de-babas-vence-inovathon-manaus-2023/" target="_blank" rel="noopener">Ler cobertura →</a>
+          </div>
+        </div>
+        <div class="award">
+          <span class="medal">🥈</span>
+          <div>
+            <h3>2º Lugar — Hacka for Justice 2023 <span class="award-org">· TJAM &amp; Manaus Tech Hub</span></h3>
+            <p><strong>ACESSOJUS</strong> — uso de IA para orientação jurídica ao cidadão. Líder do projeto (Equipe Gama).</p>
+            <a href="https://www.tjam.jus.br/index.php/menu/sala-de-imprensa/9443-tjam-faz-entrega-de-premiacoes-do-hackaton-a-equipes-vencedoras-de-maratona-tecnologica-realizada-no-projeto-trilha-da-inovacao" target="_blank" rel="noopener">Notícia TJAM →</a>
+          </div>
+        </div>
+        <div class="award">
+          <span class="medal">🥉</span>
+          <div>
+            <h3>3º Lugar — Human Hack Fest 2019 <span class="award-org">· MPAM</span></h3>
+            <p><strong>MoveAção – Human to Human</strong> — proposta humanitária de apoio a refugiados.</p>
+            <a href="https://mpam.mp.br/comunicacao/noticias/mpam-encerra-human-hack-fest-2019-com-propostas-humanitarias-para-refugiados" target="_blank" rel="noopener">Notícia MPAM →</a>
+          </div>
+        </div>
+        <div class="award">
+          <span class="medal">🏅</span>
+          <div>
+            <h3>Mentor — Desafio Liga Jovem 2023 <span class="award-org">· Sebrae</span></h3>
+            <p><strong>Cria PS</strong> — idealizador e líder, com gestão de equipe de desenvolvimento web usando metodologias ágeis.</p>
+            <a href="https://www.desafioligajovem.com.br/edicao-2023/" target="_blank" rel="noopener">Sobre o desafio →</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="section-note">🎓 Participação na <strong>25th International Conference on Artificial Intelligence in Education (AIED 2024)</strong> — <a href="https://iaied.org/" target="_blank" rel="noopener">iaied.org</a></p>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section contact" id="contato">
+    <div class="container">
+      <p class="section-label">05 · contato</p>
+      <h2 class="section-title">Vamos do brainstorming ao <span class="accent">build</span> juntos?</h2>
+      <p class="contact-sub">Manaus, AM — aberto a oportunidades como Desenvolvedor Java Backend.</p>
+      <div class="contact-links">
+        <a href="mailto:golbery.santos@yahoo.com.br" class="btn btn-accent">✉️ golbery.santos@yahoo.com.br</a>
+        <a href="https://www.linkedin.com/in/golbery" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+        <a href="https://github.com/golberysantos" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+        <a href="http://lattes.cnpq.br/4342537559814310" target="_blank" rel="noopener" class="btn btn-outline">Lattes</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Feito por Golbery Santos &middot; <span id="year"></span> &middot; compilado com <span class="accent">Java</span> e café ☕</p>
+</footer>
+
+<script src="static/js/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="static/js/main.js"></script>
+</body>
+</html>
