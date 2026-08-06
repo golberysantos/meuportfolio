@@ -52,8 +52,8 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
   <a href="https://refactoring.guru/design-patterns"><img src="https://img.shields.io/badge/Design_Patterns-8A2BE2?style=flat" /></a>
   <a href="https://refactoring.guru/design-patterns/builder"><img src="https://img.shields.io/badge/Builder_Pattern-8A2BE2?style=flat" /></a>
   <a href="https://en.wikipedia.org/wiki/Rational_unified_process"><img src="https://img.shields.io/badge/RUP-4B5563?style=flat" /></a>
-  <a href="https://en.wikipedia.org/wiki/ICONIX_Process"><img src="https://img.shields.io/badge/ICONIX-4B5563?style=flat" /></a>
-  <a href="https://www.interaction-design.org/literature/topics/design-thinking"><img src="https://img.shields.io/badge/Design_Thinking-FF6F61?style=flat" /></a>
+  <a href="https://en.wikipedia.org/wiki/ICONIX"><img src="https://img.shields.io/badge/ICONIX-4B5563?style=flat" /></a>
+  <a href="https://ixdf.org/literature/topics/design-thinking"><img src="https://img.shields.io/badge/Design_Thinking-FF6F61?style=flat" /></a>
   <a href="https://www.isaca.org/resources/cobit"><img src="https://img.shields.io/badge/COBIT_2019-003366?style=flat" /></a>
 </p>
 
@@ -66,10 +66,24 @@ Analista de Sistemas de formação, hoje dedicado a desenvolvimento Java backend
   <a href="https://alistair.cockburn.us/hexagonal-architecture/"><img src="https://img.shields.io/badge/Hexagonal_Architecture-1E90FF?style=flat" /></a>
   <a href="https://en.wikipedia.org/wiki/SOLID"><img src="https://img.shields.io/badge/SOLID-D2691E?style=flat" /></a>
   <a href="https://en.wikipedia.org/wiki/Design_Patterns"><img src="https://img.shields.io/badge/GoF_Design_Patterns-D2691E?style=flat" /></a>
-  <a href="http://xunitpatterns.com/Arrange-Act-Assert.html"><img src="https://img.shields.io/badge/AAA_Test_Pattern-2E8B57?style=flat" /></a>
+  <a href="http://xunitpatterns.com/Four%20Phase%20Test.html"><img src="https://img.shields.io/badge/AAA_Test_Pattern-2E8B57?style=flat" /></a>
 </p>
 
 <sub>*Alguns itens acima (SOLID, Clean Code, RUP, PDCA...) são conceitos ou livros, sem um "site oficial" único — nesses casos o link aponta para a fonte mais reconhecida/original sobre o tema.*</sub>
+
+### 🤖 IA Generativa & Automação
+
+<p align="left">
+  <a href="https://claude.ai/"><img src="https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white" /></a>
+  <a href="https://github.com/features/copilot/"><img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=githubcopilot&logoColor=white" /></a>
+  <a href="https://gemini.google.com/"><img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" /></a>
+  <a href="https://notebooklm.google/"><img src="https://img.shields.io/badge/NotebookLM-4285F4?style=flat&logo=google&logoColor=white" /></a>
+  <a href="https://antigravity.google/"><img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=flat&logo=google&logoColor=white" /></a>
+  <a href="https://chatgpt.com/"><img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat&logo=openai&logoColor=white" /></a>
+  <a href="https://www.deepseek.com/"><img src="https://img.shields.io/badge/DeepSeek-536AF5?style=flat" /></a>
+  <a href="https://lovable.dev/"><img src="https://img.shields.io/badge/Lovable-FF66C4?style=flat" /></a>
+  <a href="https://n8n.io/"><img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" /></a>
+</p>
 
 ---
 
