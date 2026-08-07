@@ -21,6 +21,16 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Terminal "build" — simula um build Java/Spring no hero
+  initTerminal();
+
+  // Projetos — busca ao vivo na GitHub API (com fallback pros cards fixos do HTML)
+  loadGitHubProjects();
+});
+
+/* ===================================================
+   TERMINAL DO HERO
+   =================================================== */
+function initTerminal() {
   var body = document.getElementById('terminalBody');
   if (!body) return;
 
@@ -68,4 +78,68 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   typeLine();
-});
+}
+
+/* ===================================================
+   PROJETOS — GitHub REST API (pública, sem chave)
+   Docs: https://docs.github.com/en/rest/repos/repos
+   =================================================== */
+function loadGitHubProjects() {
+  var GH_USER = 'golberysantos';
+  var EXCLUDE_REPOS = ['meuportfolio']; // não faz sentido listar o próprio portfólio como "projeto"
+  var MAX_REPOS = 6;
+
+  var grid = document.getElementById('projectsGrid');
+  var status = document.getElementById('projectsStatus');
+  if (!grid) return;
+
+  var ICONS = ['💬', '🛒', '📊', '⚙️', '🧩', '🚀'];
+
+  fetch('https://api.github.com/users/' + GH_USER + '/repos?sort=pushed&direction=desc&per_page=100')
+    .then(function (res) {
+      if (!res.ok) throw new Error('GitHub API respondeu ' + res.status);
+      return res.json();
+    })
+    .then(function (repos) {
+      var filtered = repos
+        .filter(function (r) { return !r.fork && !r.archived; })
+        .filter(function (r) { return EXCLUDE_REPOS.indexOf(r.name.toLowerCase()) === -1; })
+        .slice(0, MAX_REPOS);
+
+      if (filtered.length === 0) throw new Error('Nenhum repositório público encontrado');
+
+      grid.innerHTML = filtered.map(function (repo, i) {
+        var desc = repo.description ? escapeHtml(repo.description) : 'Sem descrição no repositório ainda.';
+        var lang = repo.language ? '<span class="project-lang">' + escapeHtml(repo.language) + '</span>' : '';
+        return (
+          '<div class="col-md-4">' +
+            '<a class="project-card" href="' + repo.html_url + '" target="_blank" rel="noopener">' +
+              '<span class="project-icon">' + ICONS[i % ICONS.length] + '</span>' +
+              '<h3>' + escapeHtml(repo.name) + '</h3>' +
+              '<p>' + desc + '</p>' +
+              lang +
+              '<span class="project-link">ver repositório →</span>' +
+            '</a>' +
+          '</div>'
+        );
+      }).join('');
+
+      if (status) {
+        status.textContent = '🔄 atualizado automaticamente via GitHub API · ' +
+          filtered.length + ' repositório(s) mais recentes de github.com/' + GH_USER;
+      }
+    })
+    .catch(function (err) {
+      // Falhou (rate limit, offline, etc.) — mantém os cards fixos que já estão no HTML
+      console.warn('Não foi possível carregar projetos da GitHub API:', err.message);
+      if (status) {
+        status.textContent = '⚠️ não foi possível atualizar automaticamente agora — mostrando destaques fixos.';
+      }
+    });
+}
+
+function escapeHtml(str) {
+  var div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
