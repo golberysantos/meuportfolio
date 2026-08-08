@@ -1,5 +1,5 @@
 <h1 align="center">Olá, eu sou o Golbery 👋</h1>
-<h3 align="center">Desenvolvedor Java Backend | Builder de soluções</h3>
+<h3 align="center">Java Backend Developer | Solution Builder</h3>
 
 <p align="center">
   <a href="https://golberysantos.github.io/meuportfolio/"><img src="https://img.shields.io/badge/🔗_Live_Demo-2ea44f?style=flat" /></a>
