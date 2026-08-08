@@ -1,0 +1,170 @@
+/* ===================================================
+   curriculo.css — estilos específicos de curriculo.html
+   (reaproveita as variáveis de cor/fonte de style.css)
+   =================================================== */
+
+.cv-topbar{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(15, 26, 46, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--card-border);
+  padding: 14px 0;
+}
+.cv-topbar-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-sm{ padding: 8px 16px; font-size: 0.8rem; }
+
+.cv-sheet{ padding: 56px 0 96px; }
+
+.cv-header{
+  text-align: center;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--card-border);
+}
+.cv-header h1{
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  margin: 0 0 8px;
+}
+.cv-role{
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin: 0 0 20px;
+}
+.cv-contact{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 20px;
+  margin: 0; padding: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.cv-contact a{ color: var(--text-muted); border-bottom: 1px dotted var(--card-border); }
+.cv-contact a:hover{ color: var(--accent); border-color: var(--accent); }
+
+.cv-section{
+  max-width: 780px;
+  margin: 0 auto 44px;
+}
+.cv-section h2{
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--text);
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+  margin: 0 0 18px;
+}
+.cv-section > p{
+  color: var(--text-muted);
+  font-size: 0.98rem;
+}
+
+.cv-skill-row{ margin-bottom: 18px; }
+.cv-skill-label{
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.cv-entry{
+  padding: 18px 0;
+  border-bottom: 1px solid var(--card-border);
+}
+.cv-entry:last-child{ border-bottom: none; }
+.cv-entry-head{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.cv-entry-head h3{
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin: 0;
+}
+.cv-period{
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.cv-entry-role{
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  font-style: italic;
+  margin: 4px 0 10px;
+}
+.cv-entry ul{
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+.cv-entry li{ margin-bottom: 6px; }
+.cv-entry strong{ color: var(--text); }
+
+.cv-list{
+  list-style: none;
+  margin: 0; padding: 0;
+  color: var(--text-muted);
+  font-size: 0.94rem;
+}
+.cv-list li{
+  padding: 8px 0;
+  border-bottom: 1px solid var(--card-border);
+}
+.cv-list li:last-child{ border-bottom: none; }
+.cv-list strong{ color: var(--text); }
+
+.cv-footer{
+  text-align: center;
+  margin-top: 40px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+.cv-footer a{ color: var(--accent); }
+
+/* ===================================================
+   IMPRESSÃO / PDF — vira um documento claro e limpo
+   =================================================== */
+@media print{
+  .no-print{ display: none !important; }
+
+  body.cv-page{
+    background: #fff;
+    color: #1a1a1a;
+  }
+  .blueprint-grid{ display: none; }
+
+  .cv-header, .cv-entry, .cv-list li{
+    border-color: #ccc;
+  }
+  .cv-role{ color: #B5762F; }
+  .cv-period{ color: #B5762F; }
+  .cv-section h2{ border-left-color: #B5762F; color: #1a1a1a; }
+  .cv-section > p, .cv-entry ul, .cv-entry-role, .cv-list, .cv-skill-label, .cv-contact{
+    color: #333;
+  }
+  .cv-entry strong, .cv-list strong, .cv-entry-head h3{ color: #000; }
+  .chip{
+    background: #f2f2f2;
+    color: #333;
+    border-color: #ccc;
+  }
+  .cv-section{ page-break-inside: avoid; }
+  .cv-entry{ page-break-inside: avoid; }
+  a{ color: inherit; text-decoration: none; }
+}
